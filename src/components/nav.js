@@ -42,15 +42,56 @@ export default class Example extends React.Component {
 
               <UncontrolledDropdown nav>
                 <DropdownToggle nav caret>
-                  Menu
+                  Basic
                 </DropdownToggle>
                 <DropdownMenu >
                   <DropdownItem href="/getting-started">
                     Getting Started
                   </DropdownItem>
+
+                   <DropdownItem href="/food">
+                    Food
+                  </DropdownItem>
+
+                  <DropdownItem href="/enclosure">
+                    Enclosures
+                  </DropdownItem>
+
+                  <DropdownItem href="/spider">
+                    Obtaining a spider
+                  </DropdownItem>
      
                 </DropdownMenu>
               </UncontrolledDropdown>
+
+              <UncontrolledDropdown nav>
+                <DropdownToggle nav caret>
+                  Advanced
+                </DropdownToggle>
+                <DropdownMenu >
+                  <DropdownItem href="/spiderlings">
+                    Raising spiderlings
+                  </DropdownItem>
+
+                   <DropdownItem href="/medicine">
+                    Helping a sick spider
+                  </DropdownItem>
+
+                  <DropdownItem href="/elder-spider">
+                    Spider aging
+                  </DropdownItem>
+
+                  <DropdownItem href="/appendix">
+                    Appendix
+                  </DropdownItem>
+     
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
+
+              <NavItem>
+                <NavLink href="/faq">FAQ</NavLink>
+              </NavItem>
 
               <NavItem>
                 <NavLink href="https://www.facebook.com/profile.php?id=1620188578256853">Community</NavLink>

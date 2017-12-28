@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 import { Jumbotron, Button, Container, Row, Col, Media } from 'reactstrap';
 
 
@@ -17,7 +18,7 @@ console.log(data)
 
         <Row>
           <Col xs="12" sm="4">
-            <img className="img-fluid" src={data.spider.childImageSharp.sizes.src} alt="Generic placeholder image" />
+            <Img className="img-fluid" resolutions={data.spider.childImageSharp.resolutions} />
           </Col>
           <Col xs="12" sm="8">
             <p className="lead">It may surprise many people to learn that a growing number of people enjoy keeping jumping spiders as pets. These lovable little creatures are surprisingly intelligent and can provide so much enjoyment and many opportunities for learning more about nature.</p>
@@ -42,13 +43,13 @@ console.log(data)
 
 
 export const query = graphql`
-  query headerQuery {
-      spider:file(
-      relativePath: { eq: "images/bitty.jpg" }
-    ) {
+  query indexQuery {
+    spider:file(relativePath: { eq: "images/bitty.jpg" }) {
       childImageSharp {
-        sizes(maxWidth: 500, quality: 40) {
-          src
+        # Specify the image processing steps right in the query
+        # Makes it trivial to update as your page's design changes.
+        resolutions(width: 400) {
+          ...GatsbyImageSharpResolutions
         }
       }
     }

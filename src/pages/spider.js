@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 
-import { Jumbotron, Button, Container, Row, Col, Media, ListGroup, ListGroupItem,  Card, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody } from 'reactstrap';
+
+import { Jumbotron, Button, Container, Row, Col, Media, ListGroup, ListGroupItem,  Card, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody, Alert } from 'reactstrap';
 
 
-const Food = () => (
+const Spider = ({ data }) => (
   <div>
     <Jumbotron fluid>
 
@@ -12,7 +14,6 @@ const Food = () => (
       <Container>
 
         <h1 className="display-3">Where to get a jumping spider</h1>
-        <p className="lead">Blah blah</p>
 
 
       </Container>
@@ -21,37 +22,68 @@ const Food = () => (
 
     <Container>
       <h2>Wild or Captive Bred?</h2>
+      <h3>Wild</h3>
+      <p>Since jumping spiders are common throughout the United States, it is easy to just capture a wild spider in warmer weather. They can be found in almost every environment, even in cities. </p>
+      <p>This option is free and has limited ecological impact. But if the spider is female, it may be gravid (ready to lay fertile eggs). The spiderlings (baby spiders) can be released outside if the weather is warm enough, but they also may escape some enclosures and end up in your house. </p>
+      <p>Also a wild spider may be old and not live much longer.</p>
 
+      <h3>Captive Bred</h3>
+      <p>Spider breeders across the United States offer limited numbers of captive bred and raised spiders for sale. The advantage is you know the age of the spider and it is not likely to be gravid.</p>
+      <p>Many people report that captive bred spiders are also more docile and easy to handle.</p>
+      <Alert color="warning">
+        Please be aware of the negative ecological impacts that the pet trade can have before buying a spider. Take precautions to make sure exotics don't escape. Capturing a local jumping spider has negligible ecological impact and can be a better choice for beginners.
+      </Alert>
+
+      <h2>Purchasing a Spider</h2>
+      <p>If you chose to purchase a spider, I recommend our Facebook group, where breeders often post spiders for sale. In the winter it is harder to buy them since they are challenging to ship in the cold and most have breeding cycles dependent on the seasons. In the spring there are usually many options to chose from on the group. </p>
+
+      <Alert color="warning">
+        Use caution when purchasing adult spiders online. There are a few websites that sell spiders that I do not recommend because they are wild-caught. Many people end up with spiders dying shortly after they purchase them because they were at the end of their lifespan by the time they were caught. Or they end up with a gravid spider and responsible for 100s of tiny spiderlings that are not local so cannot be released outside. Mass capture of wild spiders is also more likely to have a negative impact on the environment. 
+      </Alert>
+
+
+
+    </Container>
+
+
+    <Container>
+      <h2>Species</h2>
+      <p>These large and docile species are the most popular as pets</p>
       <CardDeck>
-        <Card inverse color="primary">
-          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <Card>
+          <Img className="card-img-top" sizes={data.audax.childImageSharp.sizes}  style={{ width: "100%" }} alt="Adult female Phidippus audax jumping spider in Nashville, Tennessee by Kaldari - Creative Commons" />
           <CardBody>
-            <CardTitle>Wild <i class="fa fa-times"></i></CardTitle>
-            <CardSubtitle>A very cheap option but you'll need to drill the holes yourself</CardSubtitle>
-            <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-            <Button>Purchase</Button>
+            <CardTitle>Bold Jumping Spiders (Phidippus audax)</CardTitle>
+            <CardSubtitle>A great option for beginners</CardSubtitle>
+            <CardText> Audax are common medium-size spiders that are easy to capture outside. They are hardy and easy to keep. Most are black and white, but some have other colors and patterns.
+            </CardText>
           </CardBody>
         </Card>
         <Card>
-          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+          <Img className="card-img-top" sizes={data.regius.childImageSharp.sizes}  style={{ width: "100%" }} alt="Adult Female of Phidippus regius by Tim Heller - Creative Commons" />
           <CardBody>
-            <CardTitle>Captive bred</CardTitle>
-            <CardSubtitle>Originally created for juvenile tarantulas, they come with vents already added</CardSubtitle>
-            <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-            <Button>Button</Button>
+            <CardTitle>Regal Jumping Spiders (Phidippus regius)</CardTitle>
+            <CardSubtitle>Large and colorful</CardSubtitle>
+            <CardText>These spiders are popular for their beautiful coloration and larger size. But they also tend to be more fragile than audax and require warmer temperatures.</CardText>
           </CardBody>
         </Card>
 
         <Card>
-          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+          <Img className="card-img-top" sizes={data.johnsoni.childImageSharp.sizes}  style={{ width: "100%" }} alt="Adult Female of Phidippus johnsoni by Kaldari - Creative Commons" />
           <CardBody>
-            <CardTitle>Other options: roaches, mealworms</CardTitle>
-            <CardSubtitle>Originally created for juvenile tarantulas, they come with vents already added</CardSubtitle>
-            <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-            <Button>Button</Button>
+            <CardTitle>Other </CardTitle>
+            <CardSubtitle>Other Phidippus species</CardSubtitle>
+            <CardText>Species such as the canopy jumper (Phidippus otiosus) and the red-backed jumping spider (Phidippus johnsoni) also make great pets</CardText>
+            <Button>Read more (coming soon)</Button>
           </CardBody>
         </Card>
       </CardDeck>
+
+      <hr />
+
+      <h3>Other options</h3>
+      <p>Some people keep smaller spiders like the Zebra jumping spider (Salticus scenicus) as pets. They are not easy for beginners to keep because they require special food (fruit flies) and easily escape. Plus they are a bit difficult to see and interact with due to their extremely small size.</p>
+      <p>The tan jumping spider (Platycryptus undatus) is a smaller common species that is easily captured and docile. They are popular as pets but as of yet no one has been successful breeding them in captivity.</p>
     </Container>
 
 
@@ -59,4 +91,34 @@ const Food = () => (
   </div>
 )
 
-export default Food
+
+export const query = graphql`
+  query spidersQuery {
+    audax:file(relativePath: { eq: "images/audax.jpg" }) {
+      childImageSharp {
+        sizes(maxWidth: 400, maxHeight: 250) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+
+    regius:file(relativePath: { eq: "images/regius.jpg" }) {
+      childImageSharp {
+        sizes(maxWidth: 400, maxHeight: 250) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+
+   johnsoni:file(relativePath: { eq: "images/johnsoni.jpg" }) {
+      childImageSharp {
+        sizes(maxWidth: 400, maxHeight: 250) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+  }
+`;
+
+
+export default Spider

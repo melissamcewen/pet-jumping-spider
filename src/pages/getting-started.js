@@ -26,6 +26,8 @@ const gettingStarted = () => (
       <p>They are able to <a href="http://www.sciencedirect.com/science/article/pii/S0376635713002623" rel="nofollow">quickly form and reverse associations</a>, <a href="http://www.sciencedirect.com/science/article/pii/S0003347215002353" rel="nofollow">navigate in virtual reality</a>, <a href="http://www.tandfonline.com/doi/abs/10.1080/03014223.2002.9518294" rel="nofollow">learn by trial and error</a> and <a href="http://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1078&amp;context=bioscidiss" rel="nofollow">learn from observing conspecifics</a>. This means they are an intelligent and interactive pet that some people even claim to be able to train.</p>
 
       <p>Even if you can't train them, they are fun to watch and photograph. Each has a unique personality and habits. I've loved sharing my life with these adorable and quirky creatures.</p>
+
+      <p>Care is fairly easy, they only need to be fed and watered every few days.</p>
     </Container>
 
     <Container>
@@ -38,14 +40,55 @@ const gettingStarted = () => (
     <Container>
       <h2>Ok I still want one!</h2>
       <p>Awesome! I hope this site provides a valuable resource. I also encourage you to join our Facebook group, which gives you access to our active community of knowledgable spider keepers</p>
-      <p>You'll also need the following: </p>
-      <ListGroup>
-        <ListGroupItem><Link to="/enclosures" >An enclosure</Link></ListGroupItem>
-        <ListGroupItem>Food</ListGroupItem>
-        <ListGroupItem>A spider (duh)</ListGroupItem>
 
-      </ListGroup>
     </Container>
+    <Jumbotron fluid>
+
+      <Container>
+
+        <h1 className="display-3">Caresheet</h1>
+        <p className="lead">This is just the basics, click "read more" for essential details</p>
+
+
+      </Container>
+    </Jumbotron>
+
+
+    <Container>
+      <h2>Enclosure/Spider Habitat</h2>
+      <ul>
+        <li>You can use any container as long as it has holes for ventilation</li>
+        <li>Do not place spider enclosures in direct sunlight</li>
+      </ul>
+
+      <Button color="primary" href="/enclosure">Read more</Button>  
+    </Container>
+    <hr />
+    <Container>
+
+      <h2>Food & Water</h2>
+      <ul>
+        <li>Offer your pet spider food (live prey) every 3-6 days</li>
+        <li>Remove prey that's uneaten at the end of the day</li>
+        <li>Remove prey that's uneaten at the end of the day</li>
+
+      </ul>
+
+      <Button color="primary" href="/food">Read more</Button>  
+    </Container>
+    <hr />
+    <Container>
+
+      <h2>Where to get a spider</h2>
+      <ul>
+        <li>Wild jumping spiders are easy to catch across the United States</li>
+        <li>There are also breeders that offer captive bred/raised spiders for purchase.</li>
+
+      </ul>
+
+      <Button color="primary" href="/spider">Read more</Button>  
+    </Container>
+
 
 
   </div>
