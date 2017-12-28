@@ -1,0 +1,90 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-getting-started-js": [
+      "component---src-pages-getting-started-js-e8ea9fedfbbb09c286fb.js",
+      "component---src-pages-getting-started-js-e8ea9fedfbbb09c286fb.js.map"
+    ],
+    "path---appendix": [
+      "path---appendix-a0e39f21c11f6a62c5ab.js",
+      "path---appendix-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-food-js": [
+      "component---src-pages-food-js-111dd3be94127e79013b.js",
+      "component---src-pages-food-js-111dd3be94127e79013b.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-3b69fccbe958b5e24a62.js",
+      "component---src-pages-index-js-3b69fccbe958b5e24a62.js.map"
+    ],
+    "path---enclosure": [
+      "path---enclosure-0f5b4b7e5ca44ae141ec.js",
+      "path---enclosure-0f5b4b7e5ca44ae141ec.js.map"
+    ],
+    "component---src-pages-enclosure-js": [
+      "component---src-pages-enclosure-js-ceb08f7c9c43816d6032.js",
+      "component---src-pages-enclosure-js-ceb08f7c9c43816d6032.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---food": [
+      "path---food-636886ce83103855febe.js",
+      "path---food-636886ce83103855febe.js.map"
+    ],
+    "path---faq": [
+      "path---faq-a0e39f21c11f6a62c5ab.js",
+      "path---faq-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-faq-js": [
+      "component---src-pages-faq-js-88e3c22cce5b99e87208.js",
+      "component---src-pages-faq-js-88e3c22cce5b99e87208.js.map"
+    ],
+    "component---src-pages-spider-js": [
+      "component---src-pages-spider-js-dab648656641f1ce7d20.js",
+      "component---src-pages-spider-js-dab648656641f1ce7d20.js.map"
+    ],
+    "path---spider": [
+      "path---spider-ff206b414012f702b2ba.js",
+      "path---spider-ff206b414012f702b2ba.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-ff27c592c5ae0f5a3ad1.js",
+      "component---src-layouts-index-js-ff27c592c5ae0f5a3ad1.js.map"
+    ],
+    "path---getting-started": [
+      "path---getting-started-a0e39f21c11f6a62c5ab.js",
+      "path---getting-started-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-appendix-js": [
+      "component---src-pages-appendix-js-cfd96306373643cc7141.js",
+      "component---src-pages-appendix-js-cfd96306373643cc7141.js.map"
+    ],
+    "path---index": [
+      "path---index-b422aa6a14d65c0b5619.js",
+      "path---index-b422aa6a14d65c0b5619.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-1a2ad645fe3b06c9878c.js",
+      "commons-1a2ad645fe3b06c9878c.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-52aa45633b9cbdfbd1b1.js",
+      "build-js-styles.css",
+      "app-52aa45633b9cbdfbd1b1.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
