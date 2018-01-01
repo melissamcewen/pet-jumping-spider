@@ -1,20 +1,20 @@
 {
   "assetsByChunkName": {
     "component---src-pages-community-js": [
-      "component---src-pages-community-js-0748eb5bad38f73e8452.js",
-      "component---src-pages-community-js-0748eb5bad38f73e8452.js.map"
+      "component---src-pages-community-js-8f5ff7d2bce008446e47.js",
+      "component---src-pages-community-js-8f5ff7d2bce008446e47.js.map"
     ],
     "component---src-pages-getting-started-js": [
-      "component---src-pages-getting-started-js-e8ea9fedfbbb09c286fb.js",
-      "component---src-pages-getting-started-js-e8ea9fedfbbb09c286fb.js.map"
+      "component---src-pages-getting-started-js-090b72637a6be69b5df2.js",
+      "component---src-pages-getting-started-js-090b72637a6be69b5df2.js.map"
     ],
     "path---appendix": [
       "path---appendix-a0e39f21c11f6a62c5ab.js",
       "path---appendix-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-food-js": [
-      "component---src-pages-food-js-5c576d950f6b7aecdf1e.js",
-      "component---src-pages-food-js-5c576d950f6b7aecdf1e.js.map"
+      "component---src-pages-food-js-8fc242305b517052477b.js",
+      "component---src-pages-food-js-8fc242305b517052477b.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-3b69fccbe958b5e24a62.js",
@@ -53,8 +53,8 @@
       "path---spider-aa92f6c4f52fcadca57c.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b1f4a976671399e7b97a.js",
-      "component---src-layouts-index-js-b1f4a976671399e7b97a.js.map"
+      "component---src-layouts-index-js-5aa23e15f9202d4d9182.js",
+      "component---src-layouts-index-js-5aa23e15f9202d4d9182.js.map"
     ],
     "path---getting-started": [
       "path---getting-started-a0e39f21c11f6a62c5ab.js",
@@ -65,8 +65,8 @@
       "component---src-pages-appendix-js-1548e2bc64977f52b438.js.map"
     ],
     "path---index": [
-      "path---index-7b06b350aac92fa0d8fc.js",
-      "path---index-7b06b350aac92fa0d8fc.js.map"
+      "path---index-f562a6c21c031c75b35d.js",
+      "path---index-f562a6c21c031c75b35d.js.map"
     ],
     "path---community": [
       "path---community-a0e39f21c11f6a62c5ab.js",
