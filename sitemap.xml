@@ -5,8 +5,9 @@
 <url> <loc>https://www.mypetjumpingspider.com/enclosure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.mypetjumpingspider.com/faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.mypetjumpingspider.com/food/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.mypetjumpingspider.com/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.mypetjumpingspider.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.mypetjumpingspider.com/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.mypetjumpingspider.com/medicine/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.mypetjumpingspider.com/spider/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.mypetjumpingspider.com/spiderlings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

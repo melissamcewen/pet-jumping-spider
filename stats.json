@@ -5,16 +5,16 @@
       "component---src-pages-community-js-8f5ff7d2bce008446e47.js.map"
     ],
     "component---src-pages-getting-started-js": [
-      "component---src-pages-getting-started-js-090b72637a6be69b5df2.js",
-      "component---src-pages-getting-started-js-090b72637a6be69b5df2.js.map"
+      "component---src-pages-getting-started-js-d62d371853320d7ce2ca.js",
+      "component---src-pages-getting-started-js-d62d371853320d7ce2ca.js.map"
     ],
     "path---appendix": [
       "path---appendix-a0e39f21c11f6a62c5ab.js",
       "path---appendix-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-food-js": [
-      "component---src-pages-food-js-a344b68447b413ce890e.js",
-      "component---src-pages-food-js-a344b68447b413ce890e.js.map"
+      "component---src-pages-food-js-378c6c07b217cca27a5e.js",
+      "component---src-pages-food-js-378c6c07b217cca27a5e.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-3b69fccbe958b5e24a62.js",
@@ -53,16 +53,16 @@
       "path---spider-aa92f6c4f52fcadca57c.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-2278e453b8486d12d987.js",
-      "component---src-layouts-index-js-2278e453b8486d12d987.js.map"
+      "component---src-layouts-index-js-3d8383022d479c67e551.js",
+      "component---src-layouts-index-js-3d8383022d479c67e551.js.map"
     ],
     "path---getting-started": [
-      "path---getting-started-a0e39f21c11f6a62c5ab.js",
-      "path---getting-started-a0e39f21c11f6a62c5ab.js.map"
+      "path---getting-started-bc2544eb85a103ea9efd.js",
+      "path---getting-started-bc2544eb85a103ea9efd.js.map"
     ],
     "component---src-pages-appendix-js": [
-      "component---src-pages-appendix-js-856bde3fa9c020de1613.js",
-      "component---src-pages-appendix-js-856bde3fa9c020de1613.js.map"
+      "component---src-pages-appendix-js-e76c2903e09f2013278a.js",
+      "component---src-pages-appendix-js-e76c2903e09f2013278a.js.map"
     ],
     "path---index": [
       "path---index-7b06b350aac92fa0d8fc.js",
@@ -73,8 +73,8 @@
       "path---community-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---spiderlings": [
-      "path---spiderlings-a0e39f21c11f6a62c5ab.js",
-      "path---spiderlings-a0e39f21c11f6a62c5ab.js.map"
+      "path---spiderlings-cd90dacf949ad3a63d65.js",
+      "path---spiderlings-cd90dacf949ad3a63d65.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -88,19 +88,27 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-medicine-js": [
+      "component---src-pages-medicine-js-a2884b7da42ea8fc586a.js",
+      "component---src-pages-medicine-js-a2884b7da42ea8fc586a.js.map"
+    ],
     "component---src-pages-spiderlings-js": [
-      "component---src-pages-spiderlings-js-e1563d54b0f04f2a92d9.js",
-      "component---src-pages-spiderlings-js-e1563d54b0f04f2a92d9.js.map"
+      "component---src-pages-spiderlings-js-e4cc9b1eea91e7fcc14c.js",
+      "component---src-pages-spiderlings-js-e4cc9b1eea91e7fcc14c.js.map"
     ],
     "app": [
-      "app-94cc81b68ed3c35961d3.js",
+      "app-480ce0483f1d7455ebb5.js",
       "build-js-styles.css",
-      "app-94cc81b68ed3c35961d3.js.map",
+      "app-480ce0483f1d7455ebb5.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---medicine": [
+      "path---medicine-a0e39f21c11f6a62c5ab.js",
+      "path---medicine-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
