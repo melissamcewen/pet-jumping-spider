@@ -94,7 +94,7 @@ export default class Example extends React.Component {
               </NavItem>
 
               <NavItem>
-                <NavLink href="https://www.facebook.com/profile.php?id=1620188578256853">Community</NavLink>
+                <NavLink href="/community">Community</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

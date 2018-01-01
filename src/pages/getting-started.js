@@ -89,6 +89,21 @@ const gettingStarted = () => (
       <Button color="primary" href="/spider">Read more</Button>  
     </Container>
 
+    <hr />
+    <Container>
+
+      <h2>Join our community</h2>
+      <ul>
+         <li>Connect with jumping spider keepers and experts around the globe</li>
+          <li>Many jumping spider breeders post spiderlings for sale on the group</li>
+          <li>Get help and advice from experienced keepers</li>
+          <li>Resources for jumping spider keeping in other countries (we have many UK members)</li>
+        </ul>
+
+
+      <Button color="primary" href="/community">Read more</Button>  
+    </Container>
+
 
 
   </div>

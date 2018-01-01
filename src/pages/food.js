@@ -7,13 +7,14 @@ import { Jumbotron, Button, Container, Row, Col, Media, ListGroup, ListGroupItem
 
 const Food = ({data}) => (
   <div>
+
     <Jumbotron fluid>
 
 
       <Container>
 
         <h1 className="display-3">Jumping Spider Food</h1>
-        <p className="lead">There is no getting around the fact that jumping spiders need to eat real live bugs. Here's how to chose the best food for you.</p>
+        <p className="lead">There is no getting around the fact that jumping spiders need to eat real live bugs. Here's how to chose the best food for your pet spider.</p>
 
 
       </Container>
@@ -21,13 +22,13 @@ const Food = ({data}) => (
 
 
     <Container>
-    <p>Jumping spiders eat a large variety of prey in the wild and are also known to consume nectar and other plant fluids occasionally. Spider keepers typically feed their spiders with sources of prey that are easy to source and keep at home. What you feed your spider will depend on your spider's size, prey preferences and age.</p>
+    <p>Keeping feeder bugs is an essential part of keeping a pet jumping spider. There are a variety of options that jumping spiders enjoy and are easy to keep. </p>
 
-   <p>Spiders can be a bit mystifying to feed at times, varying their needs between the seasons and stages of their lives. Generally spiderlings should be fed with fruit flies every 1-3 days. See the raising spiderlings section (when it's written) for more info. </p>
+   <p>Offer your spider food every 3 days. But don't expect them to eat every time. How often they eat depends on age, species, and sex. Young spiders eat more than older spiders. And female spiders usually eat more than males. Some older adults go as long as a month without eating. Spiders sitting on eggs or molting may also go weeks without eating.</p>
 
     <p>As spiders get to be adults try feeding them every three days and then calibrate based on how often they accept prey. If they refuse, go up to four days, then five, and so on. Refusal can take the form of running away from prey or just ignoring it. If they suddenly become especially eager for the food or more active, feed them more often.</p>
-    <p>Female spiders generally eat more than males. Most phids also slow down their eating habits in the winter.</p>
-    <p>Older spiders after their final molt may eat rarely, as little as once a month. Younger spiders that refuse food may be getting ready to molt, before, during, and after a molt they generally don't eat, and this period may be up to a month long. Also most female spiders usually don't eat when guarding eggs or young.</p>
+    <p>The best time to feed is morning. If they don't eat it, remove it at night. Most jumping spiders are diurnal (active during the day). Uneaten prey may disturb or harm them at night.</p>
+    <p>Here are some food options that are popular in the hobby:</p>
 
     <h2>Types of Food</h2>
 
@@ -45,7 +46,7 @@ const Food = ({data}) => (
           <tr>
             <th scope="row">Flies (green and bluebottle) </th>
             <td>Adult spiders</td>
-            <td>Can keep for a long time in fridge, most species prefer them, some species like otiosus will only eat flies</td>
+            <td>Can keep for a long time in fridge, most species prefer them, some species like otiosus strongly prefer flies (and may refuse non-flying prey)</td>
             <td>Having flies in your fridge (eeew)</td>
             <td><a href="https://www.mantisplace.com/">Mantisplace</a></td>
           </tr>
@@ -69,7 +70,7 @@ const Food = ({data}) => (
             <th scope="row">Roaches</th>
             <td>Adult spiders</td>
             <td>Easy to purchase at pet stores and to raise</td>
-            <td>May burrow into substrate, where your spider can't find them</td>
+            <td>May burrow into substrate, where your spider can't find them. Adults may be too large for some spiders.</td>
             <td>Your local pet store</td>
 
           </tr>
@@ -85,7 +86,7 @@ const Food = ({data}) => (
         </tbody>
       </Table>
       <Alert color="danger">
-        Never feed your spider ants, beetles, other spiders, fireflies, or any other invertebrate unless you are in the unlikely situation of owning a spider that specializes in these prey.The invertebrate world is full of creatures that are poisonous and aggressive. Even tiny ants are capable of biting or spraying acid on spiders. They may not bother you, but they are capable of harming a spider.+
+        Never use ants, beetles, other spiders, fireflies, or any other unknown spiders as spider food. These can be poisonous and aggressive. Even tiny ants are capable of biting or spraying acid on spiders. They may not bother you, but they are capable of harming a spider.
 
 
       </Alert>
@@ -106,32 +107,38 @@ const Food = ({data}) => (
       </Media>
     </Media>
 
+    <Alert color="success">
+        Make sure your feeder insects are well fed for maximum nutrition. Special nutritional supplements for feeders (like calcium) are not neccessary but also not known to be harmful.
+      </Alert>
+
     <h3>Flies</h3>
 
-    <p>Flies are an ideal source of food for phids because they are relatively easy to keep and all phids seem to prefer them. Unlike crickets or mealworms they cannot harm sick or molting spiders.</p>
+    <p>Flies (blue and green bottle) are one of the most popular food options for pet jumping spiders. They are easy to keep and all popular pet species will eat them. Unlike crickets or mealworms they cannot harm sick or molting spiders .</p>
 
-    <p>Any adult spider can eat green and bluebottle flies. Unfortunately it is not easy to raise them at home, but there are many online sources to order from like Mantisplace. You can start feeding spiderlings these when they are about the size of the fly themselves, as flies cannot fight back.</p>
+    <p>The major disadvantage is they are difficult to raise at home. Most people buy them online. But a single order can last a month or more with proper care.</p>
 
-    <p>You can order flies in the form of spikes or pupae. Pupae are a great starter food, just simply hatch in a critter keeper, they'll hatch in a few days. Once they've hatched stick them in the fridge for a few hours. Then take out and put some food in. For food an easy and nutritious solution is some warm water mixed with sugar or molasses in a small deli cup with a paper towel placed in there so they don't drown. Let them feed for a few hours and then place back in the fridge for storage. They'll keep in the fridge, alive, for a few weeks.</p>
+    <p>You can order flies in the form of spikes or pupae. Pupae are a great starter food: stick in a critter keeper, they'll hatch in a few days. Once they've hatched stick them in the fridge for a few hours so they won't fly out when you open the enclosure. Then take out and feed.</p>
+
+    <p>Fly food is easy to make. You can use sugar or anything sweet mixed with warm water. Place it in a small cup (like a deli cup) and put a paper towel in the solution to soak it up so the flies don't drown. Let the flies feed for a few hours and then place back in the fridge for storage. They'll keep in the fridge, alive, for a few weeks.</p>
 
     <p>If they are dying too soon your fridge may be too cold. Place in a warmer part of the fridge (towards the front) or adjust your fridge temperature. </p>
 
-    <p>They are easy to handle when taken out of the fridge because they will be in a state of torpor, but they will regain the ability to fly in ten minutes or so. You can easily handle these flies with your hands, picking them up by their wings or legs, if you are squeamish you can use a tong, but often that is even more unpleasant since they are fragile and will squish easily.</p>
+    <p>Flies in the fridge will be in a state of torpor. This makes them easy to handle because they won't fly away. You can pick them up with your hands or <a href="http://amzn.to/2lxxYMZ">feeding tweezers</a> and put them in your spider's enclosure. </p>
 
     <p>Another choice rather than ordering pupae are spikes, which are little maggots that can be fed to spiders directly or within a week or so they will turn into pupae and hatch into flies. The major advantage of these over just ordering pupae is that they can be stored in the fridge for a few weeks and still remain viable.</p>
 
-    <p>Once use of spikes is if you are going away on vacation, place a mixture of pupae and spikes in the spider's enclosure + some fly food and they will turn into flies at different times, creating a timer feeder.</p>
+    <p>Spikes are the maggot stage of fly development. Some spiders will eat them directly. They will turn into pupae and then hatch into flies within a week or so. The advantage of spikes is they keep in the fridge in that stage for 1-3 weeks.</p>
 
     <h3>Crickets</h3>
-    <p>Crickets are a common choice because they are so easily found in pet stores, as they are common food for tarantulas, lizards, and other exotic pets. Unfortunately they can be aggressive towards your spiders and are capable of harming and even killing them if your spiders are weak or molting. If you chose to feed crickets, place the cricket in the enclosure in the morning and remove at night if uneaten. Adult crickets should only be fed to large adult spiders.</p>
-    <p>Pinhead crickets, tiny newly hatched crickets, are safer to feed. Also some spiders will accept freshly killed crickets, which make good food for older or small spiders.</p>
-    <p>Some phid species like Phidippus otiosus that are primarily arboreal may refuse to eat crickets.</p>
+    <p>Crickets are a popular feeder source because they are easily found in almost any pet store. The disadvantage is they can harm your spider or even kill it. Spiders are most vulnerable if molting or older, and the biggest danger is at night. Remove from the enclosure before night if they aren't eaten..</p>
+    <p>Pinhead crickets, tiny newly hatched crickets, are safer to feed. Some spiders will accept freshly killed crickets, which makes them a possible option for sick or young spiders.</p>
+    <p>Some species like the canopy jumper (Phidippus otiosus) may refuse to eat crickets.</p>
 
     <h3>Mealworms</h3>
-    <p>Mealworms are another popular exotic pet food. Healthy adult spiders can enjoy these easily, though they can be dangerous towards older, weaker, or smaller spiders. Also make sure to remove any uneaten mealworms because they grow up into beetles who can be aggressive towards spiders.</p>
+    <p>Mealworms are another popular food you can buy at a pet store.  Make sure to remove any uneaten mealworms because they grow up into beetles. The beetles can be aggressive and dangerous towards spiders.</p>
 
     <h3>Roaches</h3>
-    <p>Roaches are common as tarantula food and can also be fed to jumping spiders. The main disadvantage of them is many species burrow and once they've burrowed they'll be impossible for your spider to catch.</p>
+    <p>Some pet stores also sell dubia roaches, which many jumping spiders will accept. They are also easy to raise. A disadvantage is they can burrow and hide from spiders.</p>
 
 
 

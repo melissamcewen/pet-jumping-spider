@@ -19,21 +19,6 @@ const Advanced = () => (
     </Jumbotron>
 
 
-    <Container>
-      <h2>References</h2>
-      <p>This is the main debate</p>
-
-
-    </Container>
-
-
-    <Container>
-      <h2>Species</h2>
-      <p>This is the main debate</p>
-
-
-    </Container>
-
 
 
   </div>
