@@ -12,12 +12,19 @@ const Advanced = () => (
       <Container>
 
         <h1 className="display-3">Appendix</h1>
-        <p className="lead">Topics for experienced keepers</p>
+        <p className="lead">Topics for experienced keepers and references</p>
 
 
       </Container>
     </Jumbotron>
 
+    <Container>
+    <h2>References</h2>
+    <ul>
+      <li>Lewbart, G. A. (Ed.). (2011). <a href="http://amzn.to/2EtDfOg">Invertebrate medicine.</a> John Wiley & Sons.
+Chicago </li>
+    </ul>
+    </Container>
 
 
 

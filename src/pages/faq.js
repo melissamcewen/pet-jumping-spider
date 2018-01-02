@@ -34,6 +34,14 @@ const FAQ = () => (
 
     </Container>
 
+    <hr />
+    <Container>
+      <h2>Can I keep multiple jumping spiders together?</h2>
+      <p>The short answer is no, as jumping spiders are not social and will cannibalize each other. The long answer is that some people do it anyway. It's most appropriate for very young spiderlings, mated pairs (for VERY short periods, yes, the female will sometimes eat the male), or large colonies kept for research purposes where the keeper doesn't mind some losses. </p>
+
+
+    </Container>
+
 
 
   </div>

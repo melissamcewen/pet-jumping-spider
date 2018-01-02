@@ -37,10 +37,10 @@ export default class TemplateWrapper extends React.Component {
   };
 
   componentDidMount() {
-   /* ReactGA.initialize('UA-110983103-1', {
+   ReactGA.initialize('UA-111691753-1', {
   // debug: true,
 
-});*/
+});
     logPageView(ReactGA)
   }
 
@@ -58,7 +58,7 @@ export default class TemplateWrapper extends React.Component {
             { name: 'keywords', content: 'jumping spiders, pets, spiders, Salticidae' },
             {
               property: 'og:image',
-              content: 'http://www.mypetspider.com/img/spider.jpg',
+              content: 'http://www.mypetjumpingspider.com/img/spider.jpg',
             }
           ]}
         >

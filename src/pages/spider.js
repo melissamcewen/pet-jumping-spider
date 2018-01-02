@@ -38,7 +38,11 @@ const Spider = ({ data }) => (
       <p>If you chose to purchase a spider, I recommend our Facebook group, where breeders often post spiders for sale. In the winter it is harder to buy them since they are challenging to ship in the cold and most have breeding cycles dependent on the seasons. In the spring there are usually many options to chose from on the group. </p>
 
       <Alert color="warning">
-        Use caution when purchasing adult spiders online. There are a few websites that sell spiders that I do not recommend because they are wild-caught. Many people end up with spiders dying shortly after they purchase them because they were at the end of their lifespan by the time they were caught. Or they end up with a gravid spider and responsible for 100s of tiny spiderlings that are not local so cannot be released outside. Mass capture of wild spiders is also more likely to have a negative impact on the environment. 
+        Use caution when purchasing spiders online. 
+        <ul>
+          <li>Some websites offer wild caught spiders, which may be old or gravid (about to lay eggs). This mass capture for sale may also have negative ecological impacts.</li>
+          <li>Some sellers offer spiderlings (baby/juvenile spiders) that are too young to be adopted out. These often die since spiderlings have such a high mortality rate. To avoid this, do not purchase spiderlings that are not large enough to eat large prey (green/blue bottle flies/crickets).</li>
+        </ul>
       </Alert>
 
 

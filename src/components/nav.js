@@ -77,10 +77,6 @@ export default class Example extends React.Component {
                     Helping a sick spider
                   </DropdownItem>
 
-                  <DropdownItem href="/elder-spider">
-                    Spider aging
-                  </DropdownItem>
-
                   <DropdownItem href="/appendix">
                     Appendix
                   </DropdownItem>

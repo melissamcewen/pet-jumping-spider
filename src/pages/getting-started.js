@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 
-import { Jumbotron, Button, Container, Row, Col, Media, ListGroup, ListGroupItem } from 'reactstrap';
+
+import { Jumbotron, Button, Container, Row, Col, Media, ListGroup, ListGroupItem, Card, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody} from 'reactstrap';
 
 
-const gettingStarted = () => (
+const gettingStarted = ({data}) => (
   <div>
     <Jumbotron fluid>
 
@@ -35,6 +37,34 @@ const gettingStarted = () => (
       <p>If you're looking for a cuddly pet, look elsewhere. While they are non-aggressive and bites are rare, they are not easy to handle. They are likely to be lost or harmed if handled. </p>
       <p>They also require live prey as food: roaches, crickets, mealworms, or flies. You'll also need to raise and care for these in order to keep a pet jumping spider.</p>
       <p>Sadly they also don't live very long, with the oldest recorded pet jumping spider living to about 3 years and most living to a year at most.</p>
+
+
+      <h2>Spider Facts</h2>
+
+      <CardDeck>
+      
+        <Card>
+           <Img className="card-img-top"  sizes={data.anatomy.childImageSharp.sizes}  style={{ width: "100%" }} />
+          <CardBody>
+            <CardTitle>Spider anatomy terms</CardTitle>
+            <CardSubtitle>You know about legs and eyes, but what about the other parts?</CardSubtitle>
+            <CardText>This is a male Phidippus texanus </CardText>
+          </CardBody>
+        </Card>
+
+      <Card body>
+        <CardTitle>Other common terms:</CardTitle>
+        <CardText>
+          <ul>
+            <li>Phid: a jumping spider from the Phidippus family, they are the most common species kept as pets </li>
+            <li>Sac: a jumping spider nest, they do not build webs but use the silk to build tiny sacs for sleeping and resting</li>
+            <li>Sling/spiderling: a "baby" jumping spider</li>
+            <li>Gravid: a jumping spider ready to lay fertile eggs</li>
+          </ul>
+        </CardText>
+      </Card>
+      </CardDeck>
+
     </Container>
 
     <Container>
@@ -52,7 +82,19 @@ const gettingStarted = () => (
 
       </Container>
     </Jumbotron>
+    <Container>
+      <h2>Essential Spider Info</h2>
+      <ul>
+        <li>Jumping spiders hatch from eggs and stay in their nesting sac with their siblings and mother for the first 1-2 weeks of their lives</li>
+        <li>After that they disperse, meaning live the sac to start life on their own</li>
+        <li>Spiders grow by molting, which means shedding their exoskeleton to grow a new one. A molting spider builds a sac and may stay in it for 1-4 weeks. Never disturb or try to feed a molting spider.</li>
+        <li>Jumping spiders live 6 months to 3 years. Older spiders may have trouble feeding and climbing.</li>
+      </ul>
 
+      <Button color="primary">Read more (coming soon)</Button>  
+    </Container>
+
+    <hr />
 
     <Container>
       <h2>Enclosure/Spider Habitat</h2>
@@ -108,5 +150,18 @@ const gettingStarted = () => (
 
   </div>
 )
+
+export const query = graphql`
+  query startedQuery {
+    anatomy:file(relativePath: { eq: "images/spideranatomy.png" }) {
+      childImageSharp {
+
+        sizes(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+  }
+`;
 
 export default gettingStarted

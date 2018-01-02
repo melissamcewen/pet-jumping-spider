@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
+import feeding from '../images/handfeeding.mp4'
 
 import { Jumbotron, Button, Container, Row, Col, Media, ListGroup, ListGroupItem,  Card, CardImg, CardTitle, CardText, CardDeck, CardSubtitle, CardBody, Table, Alert } from 'reactstrap';
 
@@ -13,7 +14,7 @@ const Food = ({data}) => (
 
       <Container>
 
-        <h1 className="display-3">Jumping Spider Food</h1>
+        <h1 className="display-3">Jumping Spider Food (and Water!)</h1>
         <p className="lead">There is no getting around the fact that jumping spiders need to eat real live bugs. Here's how to chose the best food for your pet spider.</p>
 
 
@@ -26,11 +27,24 @@ const Food = ({data}) => (
 
    <p>Offer your spider food every 3 days. But don't expect them to eat every time. How often they eat depends on age, species, and sex. Young spiders eat more than older spiders. And female spiders usually eat more than males. Some older adults go as long as a month without eating. Spiders sitting on eggs or molting may also go weeks without eating.</p>
 
-    <p>As spiders get to be adults try feeding them every three days and then calibrate based on how often they accept prey. If they refuse, go up to four days, then five, and so on. Refusal can take the form of running away from prey or just ignoring it. If they suddenly become especially eager for the food or more active, feed them more often.</p>
+    <Alert color="primary">
+        <h3>Help my spider won't eat!</h3>
+        <p>Don't worry unless it has been over 3 weeks. If it has been over 3 weeks, try offering a different type of prey.</p>
+      </Alert>
+
     <p>The best time to feed is morning. If they don't eat it, remove it at night. Most jumping spiders are diurnal (active during the day). Uneaten prey may disturb or harm them at night.</p>
-    <p>Here are some food options that are popular in the hobby:</p>
+
+    <h2>Water</h2>
+    <p>Offer your spider droplets of water to drink and also keep their enclosure humid. This can be done at the same time as offering food. Many keepers use a spray bottle and just spray on the sides of the enclosure (not ON the spider). </p>
+    <p>Do you need special water? That's a tough question. Most keepers use tap water without issues, but if you suspect your tap water isn't the highest quality, you can buy distilled water.</p>
+
+    <Alert color="warning">
+      Open containers of water and large droplets may drown spiderlings and very small adults.
+    </Alert>
+    <p></p>
 
     <h2>Types of Food</h2>
+    <p>Here are some food options that are popular in the hobby:</p>
 
      <Table responsive>
         <thead>
@@ -93,7 +107,7 @@ const Food = ({data}) => (
 
     <Media>
       <Media left href="#">
-      <Media object src={data.keeper.childImageSharp.sizes.src}  alt="Generic placeholder image" />
+      <Media object src={data.keeper.childImageSharp.sizes.src}  alt="a Kritter Keeper" />
       </Media>
       <Media body>
         <Media heading>
@@ -141,7 +155,33 @@ const Food = ({data}) => (
     <p>Some pet stores also sell dubia roaches, which many jumping spiders will accept. They are also easy to raise. A disadvantage is they can burrow and hide from spiders.</p>
 
 
+    <h2>Hand Feeding and other tips</h2>
 
+
+      <CardDeck>
+      
+        <Card>
+            <video preload="true" playsInline autoPlay loop muted className="card-img-top" style={{ width: "100%" }}>
+              <source src={feeding} type="video/mp4" />
+          </video>
+          <CardBody>
+            <CardTitle>This is Peanut, a female bold jumping spider</CardTitle>
+            <CardSubtitle>I "trained" her to take flies from my hand</CardSubtitle>
+             <CardText>The "wiggling" pedipalps often indicates interest in food.</CardText>
+          </CardBody>
+        </Card>
+
+      <Card body>
+        <CardTitle>Hand feeding tips:</CardTitle>
+        <CardText>
+          <ul>
+            <li>Offer food slowly and patiently</li>
+            <li>Stop if they run away or seem agitated</li>
+          </ul>
+        </CardText>
+      </Card>
+
+      </CardDeck>
 
 
     </Container>
