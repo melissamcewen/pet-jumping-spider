@@ -62,7 +62,7 @@ export default class TemplateWrapper extends React.Component {
             }
           ]}
         >
- 
+ <meta name="google-site-verification" content="og_RzGOsbBcGs1SkXnB27deUNcXqKveBm9czwXKS6ak" />
       </Helmet>
         <Header />
         <div
